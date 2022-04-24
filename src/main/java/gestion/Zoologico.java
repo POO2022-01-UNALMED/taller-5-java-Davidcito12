@@ -12,6 +12,11 @@ public class Zoologico {
 		this.ubicacion = ubicacion;
 	}
 	
+	public Zoologico() {
+		this.nombre = "727";
+		this.ubicacion = "wysi";
+	}
+	
 	public void agregarZonas(Zona nuevaZona) {
 	zonas.add(nuevaZona);
 	}
