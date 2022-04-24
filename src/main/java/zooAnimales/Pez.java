@@ -40,13 +40,13 @@ public class Pez extends Animal{
 		return "nadar";
 	}
 	
-	public void crearSalmon(String nombre, int edad, String genero, Zona zona) {
-		new Pez(nombre, edad, "oceano", genero, zona, "rojo", 6);
+	public void crearSalmon(String nombre, int edad, String genero) {
+		new Pez(nombre, edad, "oceano", genero, "rojo", 6);
 		Pez.salmones +=1;
 	}
 	
-	public void crearBacalao(String nombre, int edad, String genero, Zona zona) {
-		new Pez(nombre, edad, "oceano", genero, zona, "gris", 6);
+	public void crearBacalao(String nombre, int edad, String genero) {
+		new Pez(nombre, edad, "oceano", genero, "gris", 6);
 		Pez.bacalaos +=1;
 	}
 	
