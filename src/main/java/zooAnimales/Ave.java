@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import gestion.Zona;
 
 public class Ave extends Animal{
-	private ArrayList<Ave> listado = new ArrayList<Ave>();
+	private static ArrayList<Ave> listado = new ArrayList<Ave>();
 	public static int halcones;
 	public static int aguilas;
 	private String colorPlumas;
@@ -29,7 +29,7 @@ public class Ave extends Animal{
 	}
 	
 	public static int cantidadAves() {
-		return halcones + aguilas;
+		return listado.size();
 	}
 	
 	public String movimiento() {
