@@ -38,14 +38,14 @@ public class Anfibio extends Animal{
 		return "saltar";
 	}
 	
-	public void crearRana(String nombre, int edad, String genero) {
-		new Anfibio(nombre, edad, "selva", genero, "rojo", true);
+	public Anfibio crearRana(String nombre, int edad, String genero) {
 		Anfibio.ranas +=1;
+		return new Anfibio(nombre, edad, "selva", genero, "rojo", true);
 	}
 	
-	public void crearSalamandra(String nombre, int edad, String genero) {
-		new Anfibio(nombre, edad, "selva", genero, "negro y amarillo", false);
+	public Anfibio crearSalamandra(String nombre, int edad, String genero) {
 		Anfibio.salamandras +=1;
+		return new Anfibio(nombre, edad, "selva", genero, "negro y amarillo", false);
 	}
 
 	public String getColorPiel() {

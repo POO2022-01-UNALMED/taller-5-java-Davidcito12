@@ -34,14 +34,14 @@ public class Mamifero extends Animal{
 		return caballos + leones;
 	}
 	
-	public void crearCaballo(String nombre, int edad, String genero) {
-		new Mamifero(nombre, edad, "pradera", genero, true, 4);
+	public Mamifero crearCaballo(String nombre, int edad, String genero) {
 		Mamifero.caballos += 1;
+		return new Mamifero(nombre, edad, "pradera", genero, true, 4);
 	}
 	
-	public void crearLeon(String nombre, int edad, String genero) {
-		new Mamifero(nombre, edad, "selva", genero, true, 4);
+	public Mamifero crearLeon(String nombre, int edad, String genero) {
 		Mamifero.leones += 1;
+		return new Mamifero(nombre, edad, "selva", genero, true, 4);
 	}
 
 	public ArrayList<Mamifero> getListado() {
