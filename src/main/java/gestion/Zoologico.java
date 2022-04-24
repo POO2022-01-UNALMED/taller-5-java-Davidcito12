@@ -13,8 +13,6 @@ public class Zoologico {
 	}
 	
 	public Zoologico() {
-		this.nombre = "uwu";
-		this.ubicacion = "wysi";
 	}
 	
 	public void agregarZonas(Zona nuevaZona) {
