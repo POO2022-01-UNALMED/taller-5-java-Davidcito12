@@ -44,6 +44,7 @@ public class Animal {
 				"Anfibios: " + Anfibio.cantidadAnfibios();
 	}
 	
+	@Override
 	public String toString() {
 		if(zona != null) {
 			return "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es " + genero +
