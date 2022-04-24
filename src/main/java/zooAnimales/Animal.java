@@ -8,7 +8,7 @@ public class Animal {
 	private int edad;
 	private String habitat;
 	private String genero;
-	private Zona zona = null;
+	private Zona zona;
 	
 	
 	public Animal(String nombre, int edad, String habitat, String genero, Zona zona) {
